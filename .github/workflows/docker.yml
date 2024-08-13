@@ -4,6 +4,8 @@ on:
   push:
     branches: [ "20.04" ]
 
+concurrency: docker
+
 jobs:
   build:
     runs-on: ubuntu-latest
