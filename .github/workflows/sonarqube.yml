@@ -2,8 +2,7 @@ name: SonarQube
 
 on:
   push:
-    branches:
-      - "*"
+    branches: [ "*" ]
 
 jobs:
   build:
