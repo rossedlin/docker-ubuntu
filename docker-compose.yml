@@ -1,0 +1,4 @@
+services:
+  app:
+    image: rossedlin/ubuntu:20.04
+    container_name: app
